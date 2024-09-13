@@ -1,0 +1,47 @@
+/* Apply Google Font */
+body {
+    font-family: 'Roboto', sans-serif; /* Apply the new font to the entire body */
+}
+
+.content {
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Apply the new font */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure the content takes at least the full viewport height */
+}
+
+.content h1 {
+    font-size: 160px;
+    color: #8b1dd4;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-bottom: 0; /* Remove bottom margin for h1 */
+}
+
+.content h2 {
+    font-size: 50px;
+    color: #803fac;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 0; /* Remove top margin for h2 */
+    margin-bottom: 5px; /* Adjust the bottom margin if needed */
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    font-size: 24px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 14px 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.content a:hover {
+    background: #fff;
+    color: #000;
+}
