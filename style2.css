@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Apply the new font to the entire body */
+}
+.contenta {
+    text-align: center;
+  }
+  
+  .contenta h1 {
+    font-size: 160px;
+    color: #4b4011;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-bottom: 0;
+  }
+  .contenta h2 {
+    font-size: 50px;
+    color: #4b4011;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 0; /* Remove top margin for h2 */
+    margin-bottom: 5px;
+  }
+  .contenta a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    font-size: 24px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 14px 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  
+  .contenta a:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  .content b {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    font-size: 24px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 14px 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.content b:hover {
+    background: #fff;
+    color: #000;
+}
